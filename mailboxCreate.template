@@ -1,0 +1,16 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Here's your new mailbox</h1>
+<p>Hello {{ .CN }}. Here's your new mailbox.</p>
+
+<p>We've found a shiny new mailbox with number {{ .mb }} for you.</p>
+
+<p>You can tell everyone that they can deliver messages at: <b>{{ .site }}/deliver/{{ .mb }}</p>
+
+<p>Enjoy your new private mailing address</p>
+{{ template "tracking" }}
+</body></html>

@@ -1,0 +1,22 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Read messages</h1>
+
+<p>Hello {{ .CN }}.  Here you can read your messages.</p>
+
+<p>The user interface is very spartan, it's just a bunch of links to
+the individual messages. No explanations or such. It's so spartan
+because it is meant for a message reader program. It likes that
+terseness and so does my server. Your message reader program also
+takes care of all your message decryption. All messages should be
+encrypted by their senders so there is not much to see here.
+
+<p>Click here to see them all: <a href="/retrieve/">List Message Boxes</a>. Log in required.</p>
+
+<p>
+{{ template "tracking" }}
+</body></html>

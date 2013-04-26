@@ -1,0 +1,10 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Your message has been posted</h1>
+<p>Your message has been posted. Hopefully you get a nice response soon.</p>
+{{ template "tracking" }}
+</body></html>

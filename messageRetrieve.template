@@ -1,0 +1,14 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Here are your messages</h1>
+<p>
+
+
+none...
+</p>
+{{ template "tracking" }}
+</body></html>

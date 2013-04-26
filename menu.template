@@ -1,0 +1,8 @@
+{{ define "menu" }}
+<ul class="menu">
+<li><a href="/">Home</a></li>
+<li><a href="/account">Account</a></li>
+<li><a href="/mailbox">Manage Messageboxes</a></li>
+<li><a href="/messages">Read messages</a></li>
+</ul><br/>
+{{ end }}

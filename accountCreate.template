@@ -1,0 +1,19 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Create your account</h1>
+<!-- p>Hello {{ .CN }}. Here you can manage your account.</p -->
+
+<p>[show settings of current account if logged in]
+
+<p>If you want to rent a Message Box you need to create an account. Creating an account is free. You also get a few mail addressess for free for a short time. Just to get you hooked. After that we charge an monthly or annual fee.
+
+Please click here to <a href="/create-account">Create your account</a>.</p>
+
+<p>[todo: explain the use of ecca-proxy]</p> 
+
+{{ template "tracking" }}
+</body></html>

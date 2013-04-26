@@ -1,0 +1,20 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Manage your Message Boxes</h1>
+
+<p>Hello {{ .CN }}. Here you can manage your Message Boxes.</p>
+
+<p>You can have many of them. In fact, these are just like P.O. boxes at the postoffice.</p>
+
+<p>Please click here to <a href="/create-mailbox">Create a new message box</a>. 
+You will need to log in with your Ecca-account or create one if you don't have any.</p>
+
+<p>Click here to see them all: <a href="/retrieve/">List boxes</a>. Again, log in required.</p>
+
+<p>
+{{ template "tracking" }}
+</body></html>

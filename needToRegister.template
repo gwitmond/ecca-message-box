@@ -1,0 +1,20 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+
+<h1>Don't panic :)</h1>
+
+<p>This site is protected with Eccentric Authentication. It the new
+way to log in. No more passwords and a heck of a lot more secure and
+private.<p>
+
+<p>Please compile and install the <a href="https://github.com/gwitmond/ecca-proxy">ecca-proxy</a> at github.</p> 
+
+<p>With regards, Guido Witmond.</p>
+<p>Feel free to mail: info @ witmond.nl.</p>
+<hr />
+</body>
+</html>

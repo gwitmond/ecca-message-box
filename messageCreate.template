@@ -1,0 +1,15 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+<h1>Please write your message</h1>
+<p>
+<form method="POST">
+<textarea name="message" rows="8" cols="80">Write your message here</textarea><br />
+<input type="submit" value="Post" />
+</form>
+</p>
+{{ template "tracking" }}
+</body></html>

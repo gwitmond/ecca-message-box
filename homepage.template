@@ -1,0 +1,36 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+{{ template "menu" }}
+
+<h1>Ecca Message Box</h1>
+
+<p>Be free from user tracking. Say no to email address trafficking. At
+last, a safe and secure email messaging platform. Easy to use.</p>
+
+<h3>No passwords</h3>
+
+<p>With normal mail hosts, you log in with a password. Not here. There are no 
+passwords. Not at all. Passwords are gone. We wield the power of cryptography.</p>
+
+more bla...
+
+<h3>The Secret Sauce</h3>
+
+<p>The secret sauce of this site is in the way we use cryptography.</p>
+
+<p>To be honest, all that cryptography is complicated. It gets easy when you have a computer program that 
+does all that for you. We have that program. It's the 
+<a href="https://github.com/gwitmond/ecca-proxy">ecca-proxy</a>. 
+Right now, it's only for the adventurers who love to tinker with software. 
+In the near future it will be in every operating system and browser.</p>
+
+<p>Please read: <a href="http://witmond.nl/eccentric-authentication/introduction.html">Eccentric Authentication</a>.</p>
+
+<p>With regards, Guido Witmond.</p>
+<p>Feel free to mail: info @ witmond.nl.</p>
+<hr />
+{{ template "tracking" }}
+</body></html>
